@@ -1,6 +1,7 @@
 body{
     text-transform: capitalize;
     font-size: 23px;
+    animation: animation 1s ease-in-out 0s 1 forwards ;
 }
 .navbar{
     position: fixed;
@@ -156,4 +157,45 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.pro{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+    height: 450px;
+    border: 2px solid grey;
+    box-shadow: 1px 5px 8px darkblue;
+    font-size: 19px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.yt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.h{
+    color: darkblue;
+    text-decoration: underline;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    text-shadow: 1px 2px 3px black;
+}
+@keyframes animation {
+    0%{
+        width: 50%;
+        height: 50%;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+    }
 }

@@ -1,4 +1,4 @@
 function call()
 {
-    alert("Your are on the home page")
+    alert("Your are on the home page");
 }

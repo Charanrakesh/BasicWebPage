@@ -1,0 +1,18 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.greeting{
+    margin-bottom: -13px;
+}
+.name{
+    color: darkblue;
+    font-family: cursive;
+}
+.para1{
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
