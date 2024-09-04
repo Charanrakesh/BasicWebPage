@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/JavaScript" src="home.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>portfilo</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <i class="fa-solid fa-face-smile"></i>
+        </div>
+        <div class="navbar-center">
+            <div class="la Home"><a href="demo.html" onclick="call()" class="ma home">home</a></div>
+            <div class="la About"><a href="about.html"class="ma about">about</a></div>
+            <div class="la Connect"><a href="#" class="ma connect">connect</a></div>
+        </div>
+        <div class="navbar-right">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    <div class="intro">
+        <h1 class="head1">Let's Build The World<br>Together</h1>
+        <p class="moto">Out Moto is to educate everyone in our journey</p>
+        <a href="signup.html" class="submit" name="submit">sign up</a>
+    </div>
+    <h1 class="head2">build your own site here<br>start learning today</h1>
+    <div class="card">
+        <div class="cards card1">
+            <img class="html-i" src="data:image/png;base64,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" >
+            <p class="html-p">HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.
+            <br>Click below to learn more</p>
+            <a href="#" class="start">Start Learning HTML</a>
+        </div>
+        <div class="cards card2">
+            <img class="css-i" src="data:image/png;base64,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">\
+            <p class="css-p">CSS offers several features that make it simple and effective to specify different text styles, including color, alignment, spacing, decoration, transformation, etc. Several frequently used text properties include text-align, text-decoration, text-transform, text-indent, line-height, letter-spacing,etc,
+            </p>
+            <a href="#" class="start">Start Learning CSS</a>
+        </div>
+        <div class="cards card3">
+            <img src="data:image/png;base64,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">
+            <p class="js-p">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics
+            </p>
+            <a href="#" class="start">Start Learning JS</a>
+        </div>
+    </div>
+    <h2 class="video">You can learn programming from here</h2>
+    <div class="yt">
+        <div class="pro java">
+            <h2 class="h java">Java</h2>
+            <p class="p java">Java is the on of the best programming languge.it is used in many fields.It is 
+                very popular because we can develop once and run it on any deivce.Learning dsa with java makes
+                data structures and algorthims more understandable and easy.there are many people on internet
+                who teaches java one of the best person is "NAVIN REDDY".click below to learn.
+            </p>
+            <a class="start" href="https://www.youtube.com/watch?v=BGTx91t8q50&list=PPSV">Start Learning Java</a>
+        </div>
+        <div class="pro dsa">
+            <h2 class="h dsa">DSA</h2>
+            <p class="p dsa">DSA full form is "Data Structures and Algorithms",In DSA you can learn how to make code
+                more afficiente and used to solve porblems.DSA includes Time complexicity and Space complexicity in which
+                you can learn about how to  make code which takes less time to complete and less space to complete,
+                learn DSA is a good pratice and once click below to learn.
+            </p>
+            <a class="start" href="https://www.youtube.com/watch?v=xWLxhF3b5P8&list=PPSV">Start Learning DSA</a>
+        </div>
+        <div class="pro js">
+            <h2 class="h js">JavaScript</h2>
+            <p class="p js">JavaScript is a programming language like "python","java",etc,.In JavaScript we can learn
+                about variables,conditional statments,loops like while loop and for loop, comments,etc, JavaScript is 
+                very much used in webdevelopment on both frontend and backend side of a website. so learning JavaScript also important.
+                click below to learn.
+            </p>
+            <a class="start" href="https://www.youtube.com/watch?v=VlPiVmYuoqw&list=PPSV">Start Learning JS</a>
+        </div>
+        <div class="pro git">
+            <h2 class="h git">Git and Github</h2>
+            <p class="p git">Git and Github are very important if your want to collabrate with other.even while working in
+                some company many people work on the same porject so,it is hard to edit and change the code.so we use git and Github
+                to change and edit code which also provides version control.in github other people also collobrate with your porject
+                so,click below to learn
+            </p>
+            <a class="start" href="https://www.youtube.com/watch?v=Ez8F0nW6S-w&list=PPSV">Start Learning GIT</a>
+        </div>
+    </div>
+    <div class="top">
+        <a href="#" class="start">Top</a>
+    </div>
+</body>
+</html>
